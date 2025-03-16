@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY web /app
 
-RUN pip install -r requirement.text
+RUN pip install -r requirements.text
 
 CMD ["python", "main.py"]
