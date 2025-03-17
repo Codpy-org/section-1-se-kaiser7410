@@ -3,11 +3,7 @@ version: "3"
 services:
   web: # container 名稱
     build: ./web # 使用自訂image
-<<<<<<< HEAD
-    ports:
-=======
     ports: 
->>>>>>> d1886a0b7b37f5df03c36086d2900e57422ad98d
       - "5000:5000" # 對外接口 5000 對內接口 5000
     volumes:
       - ./web: /app # 將本地目錄 ./web 掛載到 contatner 的 /app
